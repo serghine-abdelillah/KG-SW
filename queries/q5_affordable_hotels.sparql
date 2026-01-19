@@ -1,0 +1,14 @@
+PREFIX ex: <http://abdelillahSerghine.org/tourism#>
+
+SELECT ?hotelName ?cityName ?rating ?price
+WHERE {
+  ?hotel a ex:Hotel ;
+         ex:name ?hotelName ;
+         ex:locatedIn ?city ;
+         ex:hasRating ?rating ;
+         ex:pricePerNight ?price .
+  ?city ex:name ?cityName .
+
+  FILTER (?rating >= 4.3 && ?price <= 200)
+}
+ORDER BY DESC(?rating) ASC(?price)

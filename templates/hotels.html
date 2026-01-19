@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Hotels{% endblock %}
+
+{% block content %}
+<h2>Hotels</h2>
+
+<ul class="list-group">
+{% for hotel in hotels %}
+    <li class="list-group-item">
+        <a href="/hotel/{{ hotel }}">{{ hotel }}</a>
+    </li>
+{% endfor %}
+</ul>
+{% endblock %}

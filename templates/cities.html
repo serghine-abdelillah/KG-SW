@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Cities{% endblock %}
+
+{% block content %}
+<h2>Cities</h2>
+
+<div class="row">
+{% for city in cities %}
+    <div class="col-md-3">
+        <div class="card p-3 mb-3">
+            <h5>{{ city }}</h5>
+            <a href="/city/{{ city }}" class="btn btn-outline-primary">Explore</a>
+        </div>
+    </div>
+{% endfor %}
+</div>
+{% endblock %}

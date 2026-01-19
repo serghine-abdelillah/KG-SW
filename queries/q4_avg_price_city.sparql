@@ -1,0 +1,9 @@
+PREFIX ex: <http://abdelillahSerghine.org/tourism#>
+
+SELECT ?city (AVG(?price) AS ?avgPrice)
+WHERE {
+  ?hotel a ex:Hotel ;
+         ex:locatedIn ?city ;
+         ex:pricePerNight ?price .
+}
+GROUP BY ?city

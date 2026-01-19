@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ hotel }}</title>
+</head>
+<body>
+
+<h1>{{ hotel }}</h1>
+
+<table border="1">
+<tr><th>Property</th><th>Value</th></tr>
+
+{% for p, o in facts %}
+<tr>
+    <td>{{ p.split('#')[-1] }}</td>
+    <td>
+        {% if '#' in o %}
+            <a href="/entity/{{ o.split('#')[-1] }}">
+                {{ o.split('#')[-1] }}
+            </a>
+        {% else %}
+            {{ o }}
+        {% endif %}
+    </td>
+</tr>
+{% endfor %}
+</table>
+
+{% extends "base.html" %}
+{% block title %}{{ hotel }}{% endblock %}
+
+{% block content %}
+<h2>{{ hotel }}</h2>
+
+<div class="card p-4 mb-4">
+    <p><strong>City:</strong> {{ details.city }}</p>
+    <p><strong>Stars:</strong> ⭐ {{ details.stars }}</p>
+    <p><strong>Price per night:</strong> € {{ details.price }}</p>
+</div>
+
+<h4>Reviews</h4>
+
+{% if details.reviews %}
+<ul class="list-group">
+    {% for r in details.reviews %}
+    <li class="list-group-item">
+        <strong>{{ r.tourist }}</strong> rated it ⭐ {{ r.rating }}
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No reviews available.</p>
+{% endif %}
+{% endblock %}
+
+
+<a href="/">⬅ Home</a>
+
+</body>
+</html>

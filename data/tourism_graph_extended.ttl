@@ -1,0 +1,596 @@
+@prefix ex: <http://abdelillahSerghine.org/tourism#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:AZHotelKouba a ex:Hotel ;
+    ex:hasRating "4.6"^^xsd:float ;
+    ex:hasReview ex:Review8 ;
+    ex:locatedIn ex:Algiers ;
+    ex:name "AZ Hotel Kouba" ;
+    ex:pricePerNight "86.4"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:BasilicaofStAugustine a ex:Attraction ;
+    ex:locatedIn ex:Annaba ;
+    ex:name "Basilica of St Augustine" .
+
+ex:BerlinWallMemorial a ex:Attraction ;
+    ex:locatedIn ex:Berlin ;
+    ex:name "Berlin Wall Memorial" .
+
+ex:BigBen a ex:Attraction ;
+    ex:locatedIn ex:London ;
+    ex:name "Big Ben" .
+
+ex:BrandenburgGate a ex:Attraction ;
+    ex:locatedIn ex:Berlin ;
+    ex:name "Brandenburg Gate" .
+
+ex:BritishMuseum a ex:Attraction ;
+    ex:locatedIn ex:London ;
+    ex:name "British Museum" .
+
+ex:CasbahofAlgiers a ex:Attraction ;
+    ex:locatedIn ex:Algiers ;
+    ex:name "Casbah of Algiers" .
+
+ex:Claridges a ex:Hotel ;
+    ex:hasRating "4.8"^^xsd:float ;
+    ex:hasReview ex:Review23 ;
+    ex:locatedIn ex:London ;
+    ex:name "Claridges" ;
+    ex:pricePerNight "216.24"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:Colosseum a ex:Attraction ;
+    ex:locatedIn ex:Rome ;
+    ex:name "Colosseum" .
+
+ex:EiffelTower a ex:Attraction ;
+    ex:locatedIn ex:Paris ;
+    ex:name "Eiffel Tower" .
+
+ex:ElAurassiHotel a ex:Hotel ;
+    ex:hasRating "3.7"^^xsd:float ;
+    ex:hasReview ex:Review14 ;
+    ex:locatedIn ex:Algiers ;
+    ex:name "El Aurassi Hotel" ;
+    ex:pricePerNight "162.0"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:FatimaL a ex:Tourist ;
+    ex:name "FatimaL" .
+
+ex:FourPointsOran a ex:Hotel ;
+    ex:hasRating "4.5"^^xsd:float ;
+    ex:hasReview ex:Review22 ;
+    ex:locatedIn ex:Oran ;
+    ex:name "Four Points Oran" ;
+    ex:pricePerNight "320.95"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:H10CasaMimosa a ex:Hotel ;
+    ex:hasRating "4.8"^^xsd:float ;
+    ex:hasReview ex:Review5 ;
+    ex:locatedIn ex:Barcelona ;
+    ex:name "H10 Casa Mimosa" ;
+    ex:pricePerNight "341.96"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:HotelAdlonKempinski a ex:Hotel ;
+    ex:hasRating "4.3"^^xsd:float ;
+    ex:hasReview ex:Review12 ;
+    ex:locatedIn ex:Berlin ;
+    ex:name "Hotel Adlon Kempinski" ;
+    ex:pricePerNight "320.79"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:HotelArtsBarcelona a ex:Hotel ;
+    ex:hasRating "4.3"^^xsd:float ;
+    ex:hasReview ex:Review15 ;
+    ex:locatedIn ex:Barcelona ;
+    ex:name "Hotel Arts Barcelona" ;
+    ex:pricePerNight "133.19"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:HotelEden a ex:Hotel ;
+    ex:hasRating "4.2"^^xsd:float ;
+    ex:locatedIn ex:Rome ;
+    ex:name "Hotel Eden" ;
+    ex:pricePerNight "378.93"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:HotelIbisConstantine a ex:Hotel ;
+    ex:hasRating "3.6"^^xsd:float ;
+    ex:locatedIn ex:Constantine ;
+    ex:name "Hotel Ibis Constantine" ;
+    ex:pricePerNight "124.21"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:HotelLesZianides a ex:Hotel ;
+    ex:hasRating "4.6"^^xsd:float ;
+    ex:hasReview ex:Review2 ;
+    ex:locatedIn ex:Tlemcen ;
+    ex:name "Hotel Les Zianides" ;
+    ex:pricePerNight "153.33"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:HotelLutetia a ex:Hotel ;
+    ex:hasRating "3.6"^^xsd:float ;
+    ex:hasReview ex:Review21 ;
+    ex:locatedIn ex:Paris ;
+    ex:name "Hotel Lutetia" ;
+    ex:pricePerNight "125.9"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:HotelNovotelConstantine a ex:Hotel ;
+    ex:hasRating "3.5"^^xsd:float ;
+    ex:hasReview ex:Review13 ;
+    ex:locatedIn ex:Constantine ;
+    ex:name "Hotel Novotel Constantine" ;
+    ex:pricePerNight "374.34"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:HotelQuirinale a ex:Hotel ;
+    ex:hasRating "3.9"^^xsd:float ;
+    ex:hasReview ex:Review17 ;
+    ex:locatedIn ex:Rome ;
+    ex:name "Hotel Quirinale" ;
+    ex:pricePerNight "383.48"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:HotelRenaissanceTlemcen a ex:Hotel ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:hasReview ex:Review3 ;
+    ex:locatedIn ex:Tlemcen ;
+    ex:name "Hotel Renaissance Tlemcen" ;
+    ex:pricePerNight "342.53"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:HotelRitzParis a ex:Hotel ;
+    ex:hasRating "4.3"^^xsd:float ;
+    ex:hasReview ex:Review4 ;
+    ex:locatedIn ex:Paris ;
+    ex:name "Hotel Ritz Paris" ;
+    ex:pricePerNight "200.63"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:HotelSaintGeorge a ex:Hotel ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:hasReview ex:Review26 ;
+    ex:locatedIn ex:Algiers ;
+    ex:name "Hotel Saint George" ;
+    ex:pricePerNight "222.84"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:HotelSheratonAnnaba a ex:Hotel ;
+    ex:hasRating "4.8"^^xsd:float ;
+    ex:hasReview ex:Review9 ;
+    ex:locatedIn ex:Annaba ;
+    ex:name "Hotel Sheraton Annaba" ;
+    ex:pricePerNight "132.48"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:HotelSheratonOran a ex:Hotel ;
+    ex:hasRating "4.5"^^xsd:float ;
+    ex:hasReview ex:Review16 ;
+    ex:locatedIn ex:Oran ;
+    ex:name "Hotel Sheraton Oran" ;
+    ex:pricePerNight "394.39"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:HotelSofitelAlgiers a ex:Hotel ;
+    ex:hasRating "4.6"^^xsd:float ;
+    ex:hasReview ex:Review18 ;
+    ex:locatedIn ex:Algiers ;
+    ex:name "Hotel Sofitel Algiers" ;
+    ex:pricePerNight "265.34"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:HoteldeRome a ex:Hotel ;
+    ex:hasRating "4.2"^^xsd:float ;
+    ex:hasReview ex:Review24 ;
+    ex:locatedIn ex:Berlin ;
+    ex:name "Hotel de Rome" ;
+    ex:pricePerNight "119.54"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:HoteldeRussie a ex:Hotel ;
+    ex:hasRating "4.3"^^xsd:float ;
+    ex:locatedIn ex:Rome ;
+    ex:name "Hotel de Russie" ;
+    ex:pricePerNight "65.95"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:KarimH a ex:Tourist ;
+    ex:name "KarimH" .
+
+ex:LauraP a ex:Tourist ;
+    ex:name "LauraP" .
+
+ex:LeMeurice a ex:Hotel ;
+    ex:hasRating "3.4"^^xsd:float ;
+    ex:hasReview ex:Review27 ;
+    ex:locatedIn ex:Paris ;
+    ex:name "Le Meurice" ;
+    ex:pricePerNight "352.09"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:LondonEye a ex:Attraction ;
+    ex:locatedIn ex:London ;
+    ex:name "London Eye" .
+
+ex:LouvreMuseum a ex:Attraction ;
+    ex:locatedIn ex:Paris ;
+    ex:name "Louvre Museum" .
+
+ex:LucasDubois a ex:Tourist ;
+    ex:name "LucasDubois" .
+
+ex:MajesticHotel a ex:Hotel ;
+    ex:hasRating "4.4"^^xsd:float ;
+    ex:hasReview ex:Review28 ;
+    ex:locatedIn ex:Barcelona ;
+    ex:name "Majestic Hotel" ;
+    ex:pricePerNight "213.58"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:MansourahRuins a ex:Attraction ;
+    ex:locatedIn ex:Tlemcen ;
+    ex:name "Mansourah Ruins" .
+
+ex:MartyrsMemorial a ex:Attraction ;
+    ex:locatedIn ex:Algiers ;
+    ex:name "Martyrs Memorial" .
+
+ex:MohamedAli a ex:Tourist ;
+    ex:name "MohamedAli" .
+
+ex:Montmartre a ex:Attraction ;
+    ex:locatedIn ex:Paris ;
+    ex:name "Montmartre" .
+
+ex:OmarT a ex:Tourist ;
+    ex:name "OmarT" .
+
+ex:OranWaterfront a ex:Attraction ;
+    ex:locatedIn ex:Oran ;
+    ex:name "Oran Waterfront" .
+
+ex:ParkGüell a ex:Attraction ;
+    ex:locatedIn ex:Barcelona ;
+    ex:name "Park Güell" .
+
+ex:RomeCavalieri a ex:Hotel ;
+    ex:hasRating "3.5"^^xsd:float ;
+    ex:hasReview ex:Review20 ;
+    ex:locatedIn ex:Rome ;
+    ex:name "Rome Cavalieri" ;
+    ex:pricePerNight "74.14"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:RoyalHotelOran a ex:Hotel ;
+    ex:hasRating "4.6"^^xsd:float ;
+    ex:hasReview ex:Review19 ;
+    ex:locatedIn ex:Oran ;
+    ex:name "Royal Hotel Oran" ;
+    ex:pricePerNight "152.24"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:RymElDjamilHotel a ex:Hotel ;
+    ex:hasRating "4.9"^^xsd:float ;
+    ex:hasReview ex:Review7 ;
+    ex:locatedIn ex:Annaba ;
+    ex:name "Rym El Djamil Hotel" ;
+    ex:pricePerNight "175.2"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:SagradaFamilia a ex:Attraction ;
+    ex:locatedIn ex:Barcelona ;
+    ex:name "Sagrada Familia" .
+
+ex:SantaCruzFort a ex:Attraction ;
+    ex:locatedIn ex:Oran ;
+    ex:name "Santa Cruz Fort" .
+
+ex:ShangriLaParis a ex:Hotel ;
+    ex:hasRating "3.6"^^xsd:float ;
+    ex:hasReview ex:Review29 ;
+    ex:locatedIn ex:Paris ;
+    ex:name "Shangri-La Paris" ;
+    ex:pricePerNight "125.96"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:SidiMcidBridge a ex:Attraction ;
+    ex:locatedIn ex:Constantine ;
+    ex:name "Sidi Mcid Bridge" .
+
+ex:SteigenbergerHotel a ex:Hotel ;
+    ex:hasRating "3.3"^^xsd:float ;
+    ex:hasReview ex:Review25 ;
+    ex:locatedIn ex:Berlin ;
+    ex:name "Steigenberger Hotel" ;
+    ex:pricePerNight "301.27"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:TheLangham a ex:Hotel ;
+    ex:hasRating "4.1"^^xsd:float ;
+    ex:hasReview ex:Review10 ;
+    ex:locatedIn ex:London ;
+    ex:name "The Langham" ;
+    ex:pricePerNight "296.47"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:TheRitzCarltonBerlin a ex:Hotel ;
+    ex:hasRating "3.3"^^xsd:float ;
+    ex:hasReview ex:Review6 ;
+    ex:locatedIn ex:Berlin ;
+    ex:name "The Ritz Carlton Berlin" ;
+    ex:pricePerNight "200.97"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:TheRitzLondon a ex:Hotel ;
+    ex:hasRating "4.8"^^xsd:float ;
+    ex:hasReview ex:Review1 ;
+    ex:locatedIn ex:London ;
+    ex:name "The Ritz London" ;
+    ex:pricePerNight "164.99"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:TheSavoy a ex:Hotel ;
+    ex:hasRating "3.9"^^xsd:float ;
+    ex:hasReview ex:Review11 ;
+    ex:locatedIn ex:London ;
+    ex:name "The Savoy" ;
+    ex:pricePerNight "364.26"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:TreviFountain a ex:Attraction ;
+    ex:locatedIn ex:Rome ;
+    ex:name "Trevi Fountain" .
+
+ex:VaticanMuseums a ex:Attraction ;
+    ex:locatedIn ex:Rome ;
+    ex:name "Vatican Museums" .
+
+ex:WBarcelona a ex:Hotel ;
+    ex:hasRating "4.1"^^xsd:float ;
+    ex:hasReview ex:Review30 ;
+    ex:locatedIn ex:Barcelona ;
+    ex:name "W Barcelona" ;
+    ex:pricePerNight "256.81"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:hasRating a owl:DatatypeProperty .
+
+ex:hasReview a owl:ObjectProperty .
+
+ex:locatedIn a owl:ObjectProperty .
+
+ex:name a owl:DatatypeProperty .
+
+ex:pricePerNight a owl:DatatypeProperty .
+
+ex:stars a owl:DatatypeProperty .
+
+ex:writtenBy a owl:ObjectProperty .
+
+ex:Accommodation a owl:Class .
+
+ex:ChloeBernard a ex:Tourist ;
+    ex:name "ChloeBernard" .
+
+ex:EmmaBrown a ex:Tourist ;
+    ex:name "EmmaBrown" .
+
+ex:JohnSmith a ex:Tourist ;
+    ex:name "JohnSmith" .
+
+ex:LiamWilson a ex:Tourist ;
+    ex:name "LiamWilson" .
+
+ex:PaulR a ex:Tourist ;
+    ex:name "PaulR" .
+
+ex:Place a owl:Class .
+
+ex:Review1 a ex:Review ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:writtenBy ex:NinaS .
+
+ex:Review10 a ex:Review ;
+    ex:hasRating "4.4"^^xsd:float ;
+    ex:writtenBy ex:AmineK .
+
+ex:Review11 a ex:Review ;
+    ex:hasRating "3.9"^^xsd:float ;
+    ex:writtenBy ex:EmmaBrown .
+
+ex:Review12 a ex:Review ;
+    ex:hasRating "4.7"^^xsd:float ;
+    ex:writtenBy ex:SarahJohnson .
+
+ex:Review13 a ex:Review ;
+    ex:hasRating "4.2"^^xsd:float ;
+    ex:writtenBy ex:NoahMuller .
+
+ex:Review14 a ex:Review ;
+    ex:hasRating "4.8"^^xsd:float ;
+    ex:writtenBy ex:NoahMuller .
+
+ex:Review15 a ex:Review ;
+    ex:hasRating "4.5"^^xsd:float ;
+    ex:writtenBy ex:InesZ .
+
+ex:Review16 a ex:Review ;
+    ex:hasRating "4.1"^^xsd:float ;
+    ex:writtenBy ex:SofiaGarcia .
+
+ex:Review17 a ex:Review ;
+    ex:hasRating "3.6"^^xsd:float ;
+    ex:writtenBy ex:NoahMuller .
+
+ex:Review18 a ex:Review ;
+    ex:hasRating "4.4"^^xsd:float ;
+    ex:writtenBy ex:PaulR .
+
+ex:Review19 a ex:Review ;
+    ex:hasRating "4.5"^^xsd:float ;
+    ex:writtenBy ex:JohnSmith .
+
+ex:Review2 a ex:Review ;
+    ex:hasRating "5.0"^^xsd:float ;
+    ex:writtenBy ex:DavidM .
+
+ex:Review20 a ex:Review ;
+    ex:hasRating "4.7"^^xsd:float ;
+    ex:writtenBy ex:ChloeBernard .
+
+ex:Review21 a ex:Review ;
+    ex:hasRating "3.3"^^xsd:float ;
+    ex:writtenBy ex:NinaS .
+
+ex:Review22 a ex:Review ;
+    ex:hasRating "3.7"^^xsd:float ;
+    ex:writtenBy ex:InesZ .
+
+ex:Review23 a ex:Review ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:writtenBy ex:AmineK .
+
+ex:Review24 a ex:Review ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:writtenBy ex:AliceMartin .
+
+ex:Review25 a ex:Review ;
+    ex:hasRating "3.3"^^xsd:float ;
+    ex:writtenBy ex:AliceMartin .
+
+ex:Review26 a ex:Review ;
+    ex:hasRating "4.1"^^xsd:float ;
+    ex:writtenBy ex:SofiaGarcia .
+
+ex:Review27 a ex:Review ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:writtenBy ex:NinaS .
+
+ex:Review28 a ex:Review ;
+    ex:hasRating "4.5"^^xsd:float ;
+    ex:writtenBy ex:LiamWilson .
+
+ex:Review29 a ex:Review ;
+    ex:hasRating "4.9"^^xsd:float ;
+    ex:writtenBy ex:DavidM .
+
+ex:Review3 a ex:Review ;
+    ex:hasRating "3.0"^^xsd:float ;
+    ex:writtenBy ex:DavidM .
+
+ex:Review30 a ex:Review ;
+    ex:hasRating "4.7"^^xsd:float ;
+    ex:writtenBy ex:NoahMuller .
+
+ex:Review4 a ex:Review ;
+    ex:hasRating "4.4"^^xsd:float ;
+    ex:writtenBy ex:DavidM .
+
+ex:Review5 a ex:Review ;
+    ex:hasRating "3.2"^^xsd:float ;
+    ex:writtenBy ex:AmineK .
+
+ex:Review6 a ex:Review ;
+    ex:hasRating "5.0"^^xsd:float ;
+    ex:writtenBy ex:InesZ .
+
+ex:Review7 a ex:Review ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:writtenBy ex:AliceMartin .
+
+ex:Review8 a ex:Review ;
+    ex:hasRating "3.5"^^xsd:float ;
+    ex:writtenBy ex:YassineB .
+
+ex:Review9 a ex:Review ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:writtenBy ex:AliceMartin .
+
+ex:SarahJohnson a ex:Tourist ;
+    ex:name "SarahJohnson" .
+
+ex:YassineB a ex:Tourist ;
+    ex:name "YassineB" .
+
+ex:SofiaGarcia a ex:Tourist ;
+    ex:name "SofiaGarcia" .
+
+ex:AmineK a ex:Tourist ;
+    ex:name "AmineK" .
+
+ex:Annaba a ex:City ;
+    ex:country "Algeria" ;
+    ex:name "Annaba" .
+
+ex:Constantine a ex:City ;
+    ex:country "Algeria" ;
+    ex:name "Constantine" .
+
+ex:InesZ a ex:Tourist ;
+    ex:name "InesZ" .
+
+ex:NinaS a ex:Tourist ;
+    ex:name "NinaS" .
+
+ex:Tlemcen a ex:City ;
+    ex:country "Algeria" ;
+    ex:name "Tlemcen" .
+
+ex:AliceMartin a ex:Tourist ;
+    ex:name "AliceMartin" .
+
+ex:DavidM a ex:Tourist ;
+    ex:name "DavidM" .
+
+ex:NoahMuller a ex:Tourist ;
+    ex:name "NoahMuller" .
+
+ex:Oran a ex:City ;
+    ex:country "Algeria" ;
+    ex:name "Oran" .
+
+ex:Algiers a ex:City ;
+    ex:country "Algeria" ;
+    ex:name "Algiers" .
+
+ex:Barcelona a ex:City ;
+    ex:country "Spain" ;
+    ex:name "Barcelona" .
+
+ex:Berlin a ex:City ;
+    ex:country "Germany" ;
+    ex:name "Berlin" .
+
+ex:London a ex:City ;
+    ex:country "UK" ;
+    ex:name "London" .
+
+ex:Paris a ex:City ;
+    ex:country "France" ;
+    ex:name "Paris" .
+
+ex:Rome a ex:City ;
+    ex:country "Italy" ;
+    ex:name "Rome" .
+
+ex:City a owl:Class ;
+    rdfs:subClassOf ex:Place .
+
+ex:Attraction a owl:Class .
+
+ex:Tourist a owl:Class .
+
+ex:Review a owl:Class .
+
+ex:Hotel a owl:Class ;
+    rdfs:subClassOf ex:Accommodation .
+

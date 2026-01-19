@@ -1,0 +1,47 @@
+@prefix ex: <http://abdelillahSerghine.org/tourism#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ex:country a owl:DatatypeProperty .
+
+ex:hasRating a owl:DatatypeProperty .
+
+ex:hasReview a owl:ObjectProperty ;
+    rdfs:domain ex:Hotel ;
+    rdfs:range ex:Review .
+
+ex:locatedIn a owl:ObjectProperty ;
+    rdfs:domain ex:Attraction,
+        ex:Hotel ;
+    rdfs:range ex:City .
+
+ex:name a owl:DatatypeProperty .
+
+ex:pricePerNight a owl:DatatypeProperty .
+
+ex:stars a owl:DatatypeProperty .
+
+ex:visits a owl:ObjectProperty ;
+    rdfs:domain ex:Tourist ;
+    rdfs:range ex:Attraction .
+
+ex:writtenBy a owl:ObjectProperty ;
+    rdfs:domain ex:Review ;
+    rdfs:range ex:Tourist .
+
+ex:Accommodation a owl:Class .
+
+ex:City a owl:Class ;
+    rdfs:subClassOf ex:Place .
+
+ex:Place a owl:Class .
+
+ex:Attraction a owl:Class .
+
+ex:Hotel a owl:Class ;
+    rdfs:subClassOf ex:Accommodation .
+
+ex:Review a owl:Class .
+
+ex:Tourist a owl:Class .
+

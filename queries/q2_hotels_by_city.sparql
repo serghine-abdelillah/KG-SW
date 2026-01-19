@@ -1,0 +1,9 @@
+PREFIX ex: <http://abdelillahSerghine.org/tourism#>
+
+SELECT ?hotel ?rating ?price
+WHERE {
+  ?hotel a ex:Hotel ;
+         ex:locatedIn ex:Paris ;
+         ex:hasRating ?rating ;
+         ex:pricePerNight ?price .
+}

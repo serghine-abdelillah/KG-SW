@@ -1,0 +1,8 @@
+PREFIX ex: <http://abdelillahSerghine.org/tourism#>
+
+SELECT ?hotel ?rating
+WHERE {
+  ?hotel a ex:Hotel ;
+         ex:hasRating ?rating .
+  FILTER(?rating >= 4)
+}

@@ -1,0 +1,306 @@
+@prefix ex: <http://abdelillahSerghine.org/tourism#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:AZHotelKouba a ex:Hotel ;
+    ex:hasRating "4.6"^^xsd:float ;
+    ex:locatedIn ex:Algiers ;
+    ex:name "AZ Hotel Kouba" ;
+    ex:pricePerNight "180.64"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:Attraction a owl:Class .
+
+ex:Claridges a ex:Hotel ;
+    ex:hasRating "3.9"^^xsd:float ;
+    ex:locatedIn ex:London ;
+    ex:name "Claridges" ;
+    ex:pricePerNight "115.52"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:ElAurassiHotel a ex:Hotel ;
+    ex:hasRating "4.3"^^xsd:float ;
+    ex:locatedIn ex:Algiers ;
+    ex:name "El Aurassi Hotel" ;
+    ex:pricePerNight "127.19"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:FourPointsOran a ex:Hotel ;
+    ex:hasRating "3.9"^^xsd:float ;
+    ex:locatedIn ex:Oran ;
+    ex:name "Four Points Oran" ;
+    ex:pricePerNight "82.22"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:H10CasaMimosa a ex:Hotel ;
+    ex:hasRating "4.5"^^xsd:float ;
+    ex:locatedIn ex:Barcelona ;
+    ex:name "H10 Casa Mimosa" ;
+    ex:pricePerNight "87.61"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:HotelAdlonKempinski a ex:Hotel ;
+    ex:hasRating "3.4"^^xsd:float ;
+    ex:locatedIn ex:Berlin ;
+    ex:name "Hotel Adlon Kempinski" ;
+    ex:pricePerNight "340.82"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:HotelArtsBarcelona a ex:Hotel ;
+    ex:hasRating "3.8"^^xsd:float ;
+    ex:locatedIn ex:Barcelona ;
+    ex:name "Hotel Arts Barcelona" ;
+    ex:pricePerNight "354.99"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:HotelEden a ex:Hotel ;
+    ex:hasRating "3.8"^^xsd:float ;
+    ex:locatedIn ex:Rome ;
+    ex:name "Hotel Eden" ;
+    ex:pricePerNight "242.47"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:HotelIbisConstantine a ex:Hotel ;
+    ex:hasRating "4.1"^^xsd:float ;
+    ex:locatedIn ex:Constantine ;
+    ex:name "Hotel Ibis Constantine" ;
+    ex:pricePerNight "157.42"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:HotelLesZianides a ex:Hotel ;
+    ex:hasRating "4.1"^^xsd:float ;
+    ex:locatedIn ex:Tlemcen ;
+    ex:name "Hotel Les Zianides" ;
+    ex:pricePerNight "193.72"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:HotelLutetia a ex:Hotel ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:locatedIn ex:Paris ;
+    ex:name "Hotel Lutetia" ;
+    ex:pricePerNight "360.16"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:HotelNovotelConstantine a ex:Hotel ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:locatedIn ex:Constantine ;
+    ex:name "Hotel Novotel Constantine" ;
+    ex:pricePerNight "150.14"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:HotelQuirinale a ex:Hotel ;
+    ex:hasRating "3.9"^^xsd:float ;
+    ex:locatedIn ex:Rome ;
+    ex:name "Hotel Quirinale" ;
+    ex:pricePerNight "213.95"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:HotelRenaissanceTlemcen a ex:Hotel ;
+    ex:hasRating "4.3"^^xsd:float ;
+    ex:locatedIn ex:Tlemcen ;
+    ex:name "Hotel Renaissance Tlemcen" ;
+    ex:pricePerNight "328.93"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:HotelRitzParis a ex:Hotel ;
+    ex:hasRating "3.4"^^xsd:float ;
+    ex:locatedIn ex:Paris ;
+    ex:name "Hotel Ritz Paris" ;
+    ex:pricePerNight "231.76"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:HotelSaintGeorge a ex:Hotel ;
+    ex:hasRating "4.5"^^xsd:float ;
+    ex:locatedIn ex:Algiers ;
+    ex:name "Hotel Saint George" ;
+    ex:pricePerNight "132.07"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:HotelSheratonAnnaba a ex:Hotel ;
+    ex:hasRating "4.9"^^xsd:float ;
+    ex:locatedIn ex:Annaba ;
+    ex:name "Hotel Sheraton Annaba" ;
+    ex:pricePerNight "281.77"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:HotelSheratonOran a ex:Hotel ;
+    ex:hasRating "3.4"^^xsd:float ;
+    ex:locatedIn ex:Oran ;
+    ex:name "Hotel Sheraton Oran" ;
+    ex:pricePerNight "312.23"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:HotelSofitelAlgiers a ex:Hotel ;
+    ex:hasRating "4.7"^^xsd:float ;
+    ex:locatedIn ex:Algiers ;
+    ex:name "Hotel Sofitel Algiers" ;
+    ex:pricePerNight "286.22"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:HoteldeRome a ex:Hotel ;
+    ex:hasRating "4.3"^^xsd:float ;
+    ex:locatedIn ex:Berlin ;
+    ex:name "Hotel de Rome" ;
+    ex:pricePerNight "297.58"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:HoteldeRussie a ex:Hotel ;
+    ex:hasRating "3.8"^^xsd:float ;
+    ex:locatedIn ex:Rome ;
+    ex:name "Hotel de Russie" ;
+    ex:pricePerNight "81.34"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:LeMeurice a ex:Hotel ;
+    ex:hasRating "3.4"^^xsd:float ;
+    ex:locatedIn ex:Paris ;
+    ex:name "Le Meurice" ;
+    ex:pricePerNight "275.38"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:MajesticHotel a ex:Hotel ;
+    ex:hasRating "4.9"^^xsd:float ;
+    ex:locatedIn ex:Barcelona ;
+    ex:name "Majestic Hotel" ;
+    ex:pricePerNight "372.34"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:Review a owl:Class .
+
+ex:RomeCavalieri a ex:Hotel ;
+    ex:hasRating "3.8"^^xsd:float ;
+    ex:locatedIn ex:Rome ;
+    ex:name "Rome Cavalieri" ;
+    ex:pricePerNight "308.48"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:RoyalHotelOran a ex:Hotel ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:locatedIn ex:Oran ;
+    ex:name "Royal Hotel Oran" ;
+    ex:pricePerNight "90.41"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:RymElDjamilHotel a ex:Hotel ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:locatedIn ex:Annaba ;
+    ex:name "Rym El Djamil Hotel" ;
+    ex:pricePerNight "348.01"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:ShangriLaParis a ex:Hotel ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:locatedIn ex:Paris ;
+    ex:name "Shangri-La Paris" ;
+    ex:pricePerNight "323.04"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:SteigenbergerHotel a ex:Hotel ;
+    ex:hasRating "4.7"^^xsd:float ;
+    ex:locatedIn ex:Berlin ;
+    ex:name "Steigenberger Hotel" ;
+    ex:pricePerNight "305.21"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:TheLangham a ex:Hotel ;
+    ex:hasRating "4.5"^^xsd:float ;
+    ex:locatedIn ex:London ;
+    ex:name "The Langham" ;
+    ex:pricePerNight "208.21"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:TheRitzCarltonBerlin a ex:Hotel ;
+    ex:hasRating "4.4"^^xsd:float ;
+    ex:locatedIn ex:Berlin ;
+    ex:name "The Ritz Carlton Berlin" ;
+    ex:pricePerNight "250.39"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:TheRitzLondon a ex:Hotel ;
+    ex:hasRating "4.0"^^xsd:float ;
+    ex:locatedIn ex:London ;
+    ex:name "The Ritz London" ;
+    ex:pricePerNight "76.7"^^xsd:float ;
+    ex:stars "4"^^xsd:int .
+
+ex:TheSavoy a ex:Hotel ;
+    ex:hasRating "3.8"^^xsd:float ;
+    ex:locatedIn ex:London ;
+    ex:name "The Savoy" ;
+    ex:pricePerNight "320.05"^^xsd:float ;
+    ex:stars "5"^^xsd:int .
+
+ex:Tourist a owl:Class .
+
+ex:WBarcelona a ex:Hotel ;
+    ex:hasRating "3.5"^^xsd:float ;
+    ex:locatedIn ex:Barcelona ;
+    ex:name "W Barcelona" ;
+    ex:pricePerNight "303.21"^^xsd:float ;
+    ex:stars "3"^^xsd:int .
+
+ex:hasRating a owl:DatatypeProperty .
+
+ex:hasReview a owl:ObjectProperty .
+
+ex:locatedIn a owl:ObjectProperty .
+
+ex:name a owl:DatatypeProperty .
+
+ex:pricePerNight a owl:DatatypeProperty .
+
+ex:stars a owl:DatatypeProperty .
+
+ex:writtenBy a owl:ObjectProperty .
+
+ex:Accommodation a owl:Class .
+
+ex:Place a owl:Class .
+
+ex:Annaba a ex:City ;
+    ex:country "Algeria" ;
+    ex:name "Annaba" .
+
+ex:Constantine a ex:City ;
+    ex:country "Algeria" ;
+    ex:name "Constantine" .
+
+ex:Tlemcen a ex:City ;
+    ex:country "Algeria" ;
+    ex:name "Tlemcen" .
+
+ex:Oran a ex:City ;
+    ex:country "Algeria" ;
+    ex:name "Oran" .
+
+ex:Algiers a ex:City ;
+    ex:country "Algeria" ;
+    ex:name "Algiers" .
+
+ex:Barcelona a ex:City ;
+    ex:country "Spain" ;
+    ex:name "Barcelona" .
+
+ex:Berlin a ex:City ;
+    ex:country "Germany" ;
+    ex:name "Berlin" .
+
+ex:London a ex:City ;
+    ex:country "UK" ;
+    ex:name "London" .
+
+ex:Paris a ex:City ;
+    ex:country "France" ;
+    ex:name "Paris" .
+
+ex:Rome a ex:City ;
+    ex:country "Italy" ;
+    ex:name "Rome" .
+
+ex:City a owl:Class ;
+    rdfs:subClassOf ex:Place .
+
+ex:Hotel a owl:Class ;
+    rdfs:subClassOf ex:Accommodation .
+
