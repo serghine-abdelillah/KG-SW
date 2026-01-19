@@ -17,4 +17,23 @@ The interface allows users to browse hotels, view details, and access related en
 ---
 
 ## 📁 Project Structure
+e-tourism/
+│
+├─ src/
+│ ├─ ontology.py
+│ └─ populate_extended.py
+├─ app.py
+├─ ontology_connected.py
+├─ populate_extended.py
+├─ requirements.txt
+├─ README.md
+│
+├─ templates/
+│ ├─ index.html
+│ └─ hotel.html
+│
+└─ data/
+├─ tourism_ontology_connected.ttl
+└─ tourism_graph_extended.ttl
+
 
