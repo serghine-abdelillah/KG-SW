@@ -43,3 +43,15 @@ e-tourism/
 
 ```
 
+---
+
+## 🚀 Setup & Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/tourism-kg.git
+cd e-tourism
+```
+
+
