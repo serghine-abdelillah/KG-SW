@@ -82,43 +82,24 @@ This will generate the KG file: **data/tourism_graph_extended.ttl**
 python app.py
 ```
 
-Open your browser and go to:
-
+Open the browser go to:
+ ```bash
 http://127.0.0.1:5000/
+```
 
-🌐 Navigation
+### 🌐 Navigation
+- Home page lists all hotels
+- Click on any hotel to view details
+- Each entity has its own semantic URL
 
-Home page lists all hotels
+### ⚙️ Requirements
+- Python 3.10+
+- Flask
+- rdflib
 
-Click on any hotel to view details
-
-Each entity has its own semantic URL
-
-Example:
-
-http://127.0.0.1:5000/hotel/HotelParis1
-
-📌 Screenshots
-
-Add your screenshots here:
-
-Figure 1: Home page listing hotels
-
-Figure 2: Hotel page with city and reviews
-
-Figure 3: Graph relations visualization
-
-⚙️ Requirements
-
-Python 3.10+
-
-Flask
-
-rdflib
-
-🧩 Notes
-
+### 🧩 Notes
 If you add new entities or properties, rerun:
-
+ ```bash
 python populate_extended.py
+```
 
